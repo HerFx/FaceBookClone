@@ -1,0 +1,33 @@
+.left_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    width: 18%;
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    z-index: 1;
+    border-bottom: 1px solid #3e4042 ;
+    padding: 20px 0;
+}
+
+.left_nav_option{
+    display: flex;
+    align-items: center;   
+    justify-content: left;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+h4{
+    color:#e0e2e6;
+}
+
+.left_nav_icon{
+    color: #1278f3;
+    margin-right: 10px;
+}
