@@ -1,0 +1,107 @@
+nav{
+    background-color: #242526;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav__icon{
+    color: #B0B3B8;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+
+.nav__left img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav__input{
+    height: 40px;
+    width: 240px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: #3a3b3c;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__input input::placeholder{
+    color: #B0B3B8;
+}
+
+.nav__input:focus{
+    background-color: #fff;
+}
+
+.nav__input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.nav__middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav__option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 130px;
+}
+
+
+
+.nav__option--active{
+    color: #2e81f4;
+    border-bottom: 3px solid #2e81f4;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+}
+
+.nav__info{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.nav__iconButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px !important;
+    background-color: #3a3b3c !important;
+}
+
+.nav__iconButtonicons{
+    color: #e4e6eb;
+}
