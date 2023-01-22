@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function main_post({avatar, name, time, post, like, comment, share}) {
+export default function Main_post({avatar, name, time, post, like, comment, share}) {
   return (
     <div>
         <div className="main_post">

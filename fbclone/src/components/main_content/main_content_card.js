@@ -2,7 +2,7 @@ import React from 'react'
 import {Avatar}  from '@mui/material';
 
 
-export default function main_content_card({avarat, name, img}) {
+export default function Main_content_card({avarat, name, img}) {
   return (
     <div className='main__card'>
         <Avatar src={avarat} />

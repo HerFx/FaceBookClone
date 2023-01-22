@@ -12,7 +12,7 @@ import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 
 
-export default function nav() {
+export default function Nav() {
   return (
     <nav>
         <div className="nav__left">

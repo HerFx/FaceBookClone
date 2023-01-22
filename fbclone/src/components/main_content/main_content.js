@@ -1,10 +1,8 @@
 import React from 'react'
-import MainContentCardBox from './main_content_card_box'
-import MainInputPost from './main_input_post'
+import MainContentCardBox from './Main_content_card_box'
+import MainInputPost from './Main_input_post'
 import './main_content.css'
-import MainPost from './main_post'
-
-export default function main_content() {
+export default function Main_content() {
   return (
     <div>
         <MainContentCardBox />

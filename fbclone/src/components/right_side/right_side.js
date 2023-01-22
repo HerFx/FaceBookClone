@@ -1,8 +1,8 @@
 import React from 'react'
-import SponsoreCard from './sponsore_card'
+import SponsoreCard from './Sponsore_card'
 
 
-export default function right_side() {
+export default function Right_side() {
   return (
     <div>
         <h4>Sponsore</h4>

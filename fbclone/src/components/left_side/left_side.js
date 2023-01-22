@@ -8,7 +8,7 @@ import OndemandVideoOutlinedIcon from '@mui/icons-material/OndemandVideoOutlined
 import './side_nav.css'
 
 
-export default function left_side() {
+export default function Left_side() {
   return (
     <div>
       <div className='left__nav'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function sponsore_card({img, title, site}) {
+export default function Sponsore_card({img, title, site}) {
   return (
     <div>
         <img src={img} alt = {title} />
