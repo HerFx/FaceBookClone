@@ -1,4 +1,4 @@
-.left_nav{
+.left__nav{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     padding: 20px 0;
 }
 
-.left_nav_option{
+.left__nav__option{
     display: flex;
     align-items: center;   
     justify-content: left;
@@ -27,7 +27,7 @@ h4{
     color:#e0e2e6;
 }
 
-.left_nav_icon{
+.left__nav__icon{
     color: #1278f3;
     margin-right: 10px;
 }
