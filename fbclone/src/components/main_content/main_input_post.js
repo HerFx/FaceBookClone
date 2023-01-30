@@ -12,7 +12,6 @@ export default function Main_input_post() {
         <Avatar src={null} />
         <form>
             <input type='text' placeholder='What is on your mind?' />
-            <input type='submit' value='hidden' />
         </form>
     </div>
   )
