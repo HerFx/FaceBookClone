@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <div className='content'>
-        <LeftSide />
+        <LeftSide/>
         <MainContent />
         <RightSide />
       </div>

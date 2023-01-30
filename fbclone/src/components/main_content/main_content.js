@@ -5,7 +5,6 @@ import './main_content.css'
 export default function Main_content() {
   return (
     <div>
-        <MainContentCardBox />
         <MainInputPost />
     </div>
   )
