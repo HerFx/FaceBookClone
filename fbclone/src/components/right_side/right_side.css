@@ -24,8 +24,10 @@
 }
 
 .contact_box{
-    margin-top: 70px;
+    margin: 70px 20px;
     position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #3e4042 ;
 }
 
 .contact_box h1{
